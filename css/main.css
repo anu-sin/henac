@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Cardelina', sans-serif;
+  font-weight: 400;
+}
+html {
+  font-size: 20px;
+}
+body {
+  min-height: 100vh;
+}
+header {
+  background-color: #222;
+  color: #eee;
+  padding: 1rem 2rem;
+}
+h1,
+h2 {
+  font-family: 'GROUPE', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  background-color: #333;
+}
+main {
+  padding: 1rem 2rem;
+}
+main section {
+  padding-block: 1rem;
+  border-bottom: 1px solid #999;
+}
+section h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+section p {
+  padding-block: 1rem;
+}
+form p {
+  padding-block: 0.5rem;
+}
+input {
+  font-family: Cardelina, sans-serif;
+  padding: 0.25rem 1rem;
+  font-size: 1rem;
+}
+button {
+  font-family: Cardelina, sans-serif;
+  padding: 0.25rem 1rem;
+  margin-block: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+pre,
+code {
+  font-size: 1rem;
+  padding-block: 1rem;
+}
+ul {
+  margin-block: 1rem;
+}
+li {
+  list-style-position: inside;
+  padding-block: 0.5rem;
+}
+#file_list {
+  cursor: pointer;
+}
+#file_list span:hover,
+#file_list li.active {
+  color: orangered;
+}
